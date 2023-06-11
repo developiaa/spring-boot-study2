@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'hello'
+version = '1.0.0'
+sourceCompatibility = '17'
+
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}
