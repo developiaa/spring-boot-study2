@@ -3,3 +3,4 @@ rootProject.name = 'spring-boot-study2'
 include "embed"
 include "server"
 include "boot"
+include "lib"
