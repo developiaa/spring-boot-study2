@@ -1,11 +1,14 @@
 package hello.autoconfig.config;
 
+import hello.memory.MemoryCondition;
 import hello.memory.MemoryController;
 import hello.memory.MemoryFinder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@Conditional(MemoryCondition.class)
 public class MemoryConfig {
     @Bean
     public MemoryController memoryController() {
