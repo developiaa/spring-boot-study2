@@ -1,4 +1,11 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoints:
     web:
       exposure:
@@ -7,3 +14,9 @@ management:
     health:
 #      show-details: always
       show-components: always
+
+## env를 활성화하면 info로 해당하는 부분 노출
+info:
+  app:
+    name: hello-actuator
+    company: developia
