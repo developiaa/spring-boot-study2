@@ -14,6 +14,8 @@ management:
     health:
 #      show-details: always
       show-components: always
+  server:
+    port: 8080
 
 ## env를 활성화하면 info로 해당하는 부분 노출
 info:
