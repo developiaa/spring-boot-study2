@@ -18,5 +18,8 @@ management:
 ## env를 활성화하면 info로 해당하는 부분 노출
 info:
   app:
-    name: hello-actuator
+    name: hello-actuatora
     company: developia
+logging:
+  level:
+    hello.actuator.controller: trace
